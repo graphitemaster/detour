@@ -1,6 +1,6 @@
 # Detour
 
-On Linux, the traditional divide between statically and dynamically linked executables can feel like a hard wall. Either you bundle *everything* into your binary, or you accept full dependency on the system's libc and dynamic linker. But Detour, a tiny static library,blows a hole clean through that wall.
+On Linux, the traditional divide between statically and dynamically linked executables can feel like a hard wall. Either you bundle *everything* into your binary, or you accept full dependency on the system's libc and dynamic linker. But Detour, a tiny static library, blows a hole clean through that wall.
 
 Detour lets you build statically linked executables, with no dependency on glibc
 or musl while still giving you access to dynamic linking at runtime. You can
